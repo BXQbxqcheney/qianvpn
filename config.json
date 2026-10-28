@@ -1,0 +1,38 @@
+{
+  "port": 8899,
+  "host": "127.0.0.1",
+
+  "mode": "targeted",
+
+  "relayList": [],
+
+  "relay": {
+    "endpoints": [],
+    "timeout": 300000,
+    "firstByteTimeout": 30000,
+    "maxBodyBytes": 2097152
+  },
+
+  "buffer": {
+    "enabled": false,
+    "domains": []
+  },
+
+  "targeted": {
+    "directTimeout": 4000,
+    "cacheSeconds": 300,
+    "forceRelayDomains": [],
+    "directDomains": []
+  },
+
+  "headers": {
+    "overrideUserAgent": "",
+    "forceIdentity": true,
+    "strip": ["accept-encoding"],
+    "extra": {}
+  },
+
+  "security": { "allowPrivateTargets": false },
+  "cert": { "autoInstall": true },
+  "log": { "level": "info" }
+}

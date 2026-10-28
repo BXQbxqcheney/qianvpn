@@ -1,0 +1,7 @@
+[build]
+  command = ""
+  publish = "."
+
+[[edge_functions]]
+  function = "relay"
+  path = ["/relay/*", "/__stream", "/__stream/*"]
